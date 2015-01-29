@@ -28,7 +28,7 @@ public class MetodoUsuario {
                   
         boolean resp=false;
         
-        String query="insert into usuario (IDUSUARIO, LOGIN, PASSWORD, ESTADO, IDROL) values(?,?,?,?,?)";
+        String query="insert into usuario values(?,?,?,?,?)";
         
         PreparedStatement ps=con.prepareStatement(query);
        

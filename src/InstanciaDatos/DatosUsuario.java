@@ -14,22 +14,17 @@ private String idusuario ;
 private String login;
 private String password;
 private String estado;
-private String fechacreacion;
-private String fechamodificacion;
 private String idrol;
 
     public DatosUsuario() {
     }
 
-    public DatosUsuario(String idusuario, String login, String estado, String password,String fechacreacion
-            ,String fechamodificacion, String idrol ){
+    public DatosUsuario(String idusuario, String login, String estado, String password,String idrol ){
       
         this.idusuario = idusuario;
         this.login = login;
         this.estado = estado;
         this.password = password;
-        this.fechacreacion=fechacreacion;
-        this.fechamodificacion=fechamodificacion;
         this.idrol=idrol;
         
     }   
@@ -63,24 +58,7 @@ private String idrol;
 
     public void setEstado(String estado) {
         this.estado = estado;
-    }
-
-    public String getFechacreacion() {
-        return fechacreacion;
-    }
-
-    public void setFechacreacion(String fechacreacion) {
-        this.fechacreacion = fechacreacion;
-    }
-    
-     public String getFechamodificacion() {
-        return fechamodificacion;
-    }
-
-    public void setFechamodificacion(String fechamodificacion) {
-        this.fechamodificacion = fechamodificacion;
-    }
-    
+    }    
     public String getIdRol() {
         return idrol;
     }
@@ -91,8 +69,8 @@ private String idrol;
 
     @Override
     public String toString() {
-        return "USUARIO{" + "idusuario=" + idusuario + ", login=" + login + ", password=" + password + ", fechacreacion=" + fechacreacion +
-                ", fechamodificacion=" + fechamodificacion +", idrol=" + idrol+'}';
+        return "USUARIO{" + "idusuario=" + idusuario + ", login=" + login + ", password=" + password + ", fechacreacion="
+                +", idrol=" + idrol+'}';
     }
     
 }
