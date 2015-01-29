@@ -40,7 +40,7 @@ public class MenuAdministrador extends javax.swing.JFrame {
         jMenu1 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Solo Administradores");
+        setTitle("Software para el mantenimiento de la UE-401");
 
         jMenu2.setText("Mantenimiento");
 

@@ -33,7 +33,7 @@ public class ListarUsuario extends javax.swing.JFrame {
         
         add(js);
    
-        modelo.addColumn("CodigoUsuario");
+       modelo.addColumn("CodigoUsuario");
        modelo.addColumn("Login");  
        modelo.addColumn("Password");
        modelo.addColumn("Estado");
@@ -76,6 +76,7 @@ public class ListarUsuario extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Lista de Usuarios");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
